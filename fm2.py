@@ -122,7 +122,7 @@ def main():
     </html>
     """
 
-    recipient_email = 'danhathway@gmail.com'  # Update this with the recipient's email
+    recipient_email = 'me@gmail.com'  # Update this with the recipient's email
     send_email(gmail_service, report, recipient_email)
     print("Email report sent successfully.")
 
